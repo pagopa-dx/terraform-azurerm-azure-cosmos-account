@@ -1,3 +1,25 @@
+# 3.0.0 (2026-10-28)
+
+### ⚠️  Breaking Changes
+
+- Raise the AzureRM v4 minimum to 4.78 and Terraform to 1.16. ([#2327](https://github.com/pagopa/dx/pull/2327))
+
+### ❤️ Thank You
+
+- Andrea Grillo
+- Mario Mupo @mamu0
+
+## 2.0.4 (2026-10-15)
+
+### 🩹 Fixes
+
+- Restore the canonical DX ModuleName tag using the name in project.json, shared with Nx, instead of deriving it from the Terraform installation directory. ([#2364](https://github.com/pagopa/dx/pull/2364))
+
+### ❤️ Thank You
+
+- Andrea Grillo
+- Mario Mupo @mamu0
+
 ## 2.0.3 (2026-09-15)
 
 ### 🩹 Fixes
